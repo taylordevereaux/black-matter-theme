@@ -1,16 +1,21 @@
 {
-  "name": "black-matter",
+  "name": "@tdevereaux_/black-matter-theme",
   "version": "1.0.0",
   "description": "Dark bootstrap theme",
-  "main": "index.js",
+  "main": "build/index.css",
   "scripts": {
+    "build": "node-sass-chokidar scss -o build",
+    "start": "npm run build && node-sass-chokidar --watch scss -o build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Taylor Devereaux",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^1.9.1",
-    "popper.js": "^1.12.9"
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "bootstrap": "^4.0.0"
   }
 }
