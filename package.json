@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "Dark bootstrap theme",
   "main": "build/index.css",
+  "keywords": ["theme", "black", "dark"],
+  "author": "Taylor Devereaux (http://taylordevereaux.com)",
+  "license": "ISC",
+  "homepage": "https://github.com/taylordevereaux/black-matter-theme",
+  "bugs": "https://github.com/taylordevereaux/black-matter-theme/issues",
+  "repository": {
+    "url": "https://github.com/taylordevereaux/black-matter-theme",
+    "type": "git"
+  },
   "scripts": {
     "build": "node-sass-chokidar scss -o build",
     "start": "yarn run build && node-sass-chokidar --watch scss -o build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Taylor Devereaux",
-  "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0"
   },
