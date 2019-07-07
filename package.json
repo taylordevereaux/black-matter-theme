@@ -1,6 +1,6 @@
 {
   "name": "@tdevereaux_/black-matter-theme",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Dark bootstrap theme",
   "main": "dist/index.css",
   "files": [
