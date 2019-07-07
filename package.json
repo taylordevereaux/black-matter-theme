@@ -13,8 +13,8 @@
     "type": "git"
   },
   "scripts": {
-    "build": "node-sass-chokidar scss -o build",
-    "start": "yarn run build && node-sass-chokidar --watch scss -o build",
+    "build": "node-sass-chokidar src -o dist",
+    "start": "yarn run build && node-sass-chokidar --watch src -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
